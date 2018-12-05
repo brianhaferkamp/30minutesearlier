@@ -1,0 +1,40 @@
+#app(mv-app="30minutesearlier" mv-storage="https://github.com/[username]", mv-bar="no-login")
+
+  header.masthead
+    .masthead-inner
+      .site-logo
+        h1 3<span class="logo-icon"><i class="zmdi zmdi-time"></i></span> Minutes Earlier
+      .site-links
+        a.about-trigger(href="#") <i class="zmdi zmdi-help"></i> <span class="about-trigger-label">My Story</span>
+
+  main
+    .day-list
+      .day-group(property="day", mv-multiple, mv-order="desc")
+        h2.date(property="date", mv-default="Workout Date")
+        .metrics
+          .metric-group(title="Max Heart Rate")
+            p <i class="zmdi zmdi-favorite"></i> <span property="heartrate">125</span>
+          .metric-group(title="Workout Duration")
+            p <i class="zmdi zmdi-time"></i> <span property="workoutduration">0:40:02</span>
+          .metric-group(title="Workout Distance")
+            p <i class="zmdi zmdi-run"></i> <span property="workoutdistance">2.1</span> mi
+          .metric-group(title="Weight")
+            p <i class="zmdi zmdi-wifi-alt-2"></i> <span property="weight">200</span> lbs
+
+
+    aside.about.hide
+      .about-inner
+        p.about-close <i class="zmdi zmdi-close"></i>
+        .about-text
+          p Put your own story here
+          
+          p Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ thought Alice ‘without pictures or conversations?’
+
+          p So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.
+
+    footer
+      .footer-inner
+        p
+          a(href="?login") Login
+        p Template created by <a href="http://highwaywebconsulting.com" target="_blank">Highway Web Consulting</a>
+        p Created using <a href="https://mavo.io/" target="_blank">Mavo.io</a>

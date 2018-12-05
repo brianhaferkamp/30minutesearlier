@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>30 Minutes Earlier (Template)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+<script src="https://get.mavo.io/mavo.min.js"></script>
+<link rel="stylesheet" href="https://get.mavo.io/mavo.css">
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<div id="app" mv-app="30minutesearlier" mv-storage="https://github.com/[username]" mv-bar="no-login">
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="site-logo">
+        <h1>3<span class="logo-icon"><i class="zmdi zmdi-time"></i></span> Minutes Earlier</h1>
+      </div>
+      <div class="site-links"><a class="about-trigger" href="#"><i class="zmdi zmdi-help"></i> <span class="about-trigger-label">My Story</span></a></div>
+    </div>
+  </header>
+  <main>
+    <div class="day-list">
+      <div class="day-group" property="day" mv-multiple="mv-multiple" mv-order="desc">
+        <h2 class="date" property="date" mv-default="Workout Date"></h2>
+        <div class="metrics">
+          <div class="metric-group" title="Max Heart Rate">
+            <p><i class="zmdi zmdi-favorite"></i> <span property="heartrate">125</span></p>
+          </div>
+          <div class="metric-group" title="Workout Duration">
+            <p><i class="zmdi zmdi-time"></i> <span property="workoutduration">0:40:02</span></p>
+          </div>
+          <div class="metric-group" title="Workout Distance">
+            <p><i class="zmdi zmdi-run"></i> <span property="workoutdistance">2.1</span> mi</p>
+          </div>
+          <div class="metric-group" title="Weight">
+            <p><i class="zmdi zmdi-wifi-alt-2"></i> <span property="weight">200</span> lbs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <aside class="about hide">
+      <div class="about-inner">
+        <p class="about-close"><i class="zmdi zmdi-close"></i></p>
+        <div class="about-text">
+          <p>Put your own story here</p>
+          <p>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ thought Alice ‘without pictures or conversations?’</p>
+          <p>So she was considering in her own mind (as well as she could, for the hot day made her feel very sleepy and stupid), whether the pleasure of making a daisy-chain would be worth the trouble of getting up and picking the daisies, when suddenly a White Rabbit with pink eyes ran close by her.</p>
+        </div>
+      </div>
+    </aside>
+    <footer>
+      <div class="footer-inner">
+        <p><a href="?login">Login</a></p>
+        <p>Template created by <a href="http://highwaywebconsulting.com" target="_blank">Highway Web Consulting</a></p>
+        <p>Created using <a href="https://mavo.io/" target="_blank">Mavo.io</a></p>
+      </div>
+    </footer>
+  </main>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
