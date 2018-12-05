@@ -5,4 +5,6 @@ Wake up 30 minutes earlier to get a half hour of exercise. Small changes along t
 
 Fork this to your own Github account and begin your journey to feel better today!
 
+You can also [fork this project on CodePen](https://codepen.io/brianhaferkamp/pen/MzMwqW/).
+
 This project was created by [Brian Haferkamp](https://twitter.com/brianhaferkamp) from [Highway Web Consulting](http://highwaywebconsulting.com) using [Mavo.io](https://mavo.io).
