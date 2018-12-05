@@ -5,4 +5,4 @@ Wake up 30 minutes earlier to get a half hour of exercise. Small changes along t
 
 Fork this to your own Github account and begin your journey to feel better today!
 
-This project was created by [https://twitter.com/brianhaferkamp](Brian Haferkamp) from [http://highwaywebconsulting.com](Highway Web Consulting) using [https://mavo.io](Mavo.io).
+This project was created by (https://twitter.com/brianhaferkamp)[Brian Haferkamp] from (http://highwaywebconsulting.com)[Highway Web Consulting] using (https://mavo.io)[Mavo.io].
