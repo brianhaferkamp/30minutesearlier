@@ -1,0 +1,157 @@
+body
+  font-family: 'Source Sans Pro', sans-serif
+  color: #6E00FF
+  // background: rgba(#6E00FF, 0.1)
+  background: #f9f9f9
+  margin: 0
+
+i
+  color: #6E00FF
+  
+.hide
+  display: none
+  
+#app
+  max-width: 600px
+  min-height: 100vh
+  margin: 0 auto
+  background: #fff
+  transition: padding 300ms ease
+  
+@media (min-width: 600px)
+  #app
+    padding: 0 1rem
+    box-shadow: 0px 0px 80px 0px rgba(#6E00FF, 0.1)
+  
+.masthead-inner
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 1rem
+  
+.site-logo
+  text-transform: uppercase
+  font-weight: 700
+  
+  h1
+    margin: 0
+    font-size: 1.5rem
+  
+  i
+    font-size: 1.5rem
+    margin: 0 .1rem 0 1px
+    transform: translateY(1px)
+    font-weight: 700
+    
+      
+.site-links
+  a
+    font-size: 1.4rem
+    margin-left: 1rem
+    text-decoration: none
+    text-transform: uppercase
+    
+    &:focus,
+    &:visited,
+    &:active
+      color: #6E00FF
+    
+.about-trigger-label
+  display: none
+  
+@media (min-width: 450px)
+  .about-trigger-label
+    display: inline-block
+      
+main
+  position: relative
+  padding: 1rem
+      
+.day-group
+  margin: 3rem 0
+  
+.metrics
+  display: flex
+  justify-content: space-between
+  border: 2px solid #6E00FF
+  border-radius: 3px
+  padding: 1rem
+  
+.date
+  text-transform: uppercase
+  font-size: 1rem
+  font-weight: 400
+    
+.metric-group
+  margin: 0 .5rem
+  font-size: .8rem
+  
+  &:nth-child(1)
+    margin-left: 0
+  
+  &:nth-child(4)
+    margin-right: 0
+  
+  p
+    margin: 0
+    
+  i
+    font-size: .8rem
+    margin-right: 5px
+    vertical-align: middle
+    
+  @media (min-width: 400px)
+    i
+      font-size: 1.3rem
+    
+@media (min-width: 400px)
+  .metric-group
+    font-size: 1rem
+    
+.about
+  position: absolute
+  top: 0
+  left: 1rem
+  margin-right: 1rem
+  background: #f9f9f9
+  padding: 1rem
+  
+.about-close
+  font-size: 1.5rem
+  margin: 0
+  
+  &:hover
+    cursor: pointer
+  
+.about-text
+  height: 70vh
+  overflow-y: auto
+  
+// Mavo
+
+.mv-bar.mv-ui
+  background:
+    color: #6E00FF
+
+.mv-add
+  background: transparent
+  border: 2px solid #6E00FF
+  border-radius: 3px
+  color: #6E00FF
+  text-transform: uppercase
+  padding: .5rem
+  margin-top: 3rem
+    
+.footer-inner
+  margin-top: 5rem
+  
+  p
+    font-size: .8rem
+  
+  a
+    color: rgba(#6E00FF, 0.6)
+    transition: color 300ms ease
+    
+    &:hover
+      color: #6E00FF
+    
